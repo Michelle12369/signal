@@ -165,8 +165,8 @@ public class characterSetting extends PApplet {
 		text("Size", 200, 250);
 		try {
 			// sensor value
-			buttonValue = ifkit.getSensorValue(0);
 			lightValue = ifkit.getSensorValue(2);
+			buttonValue = ifkit.getSensorValue(0);
 			axisValue = spatial.getAcceleration(0);
 			double axis2 = spatial.getAcceleration(1);
 			double axis3 = spatial.getAcceleration(2);
